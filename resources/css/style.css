@@ -137,3 +137,24 @@ h3 {
 .jumbotron.trouble #trouble-details {
   margin-top: 1.4rem;
 }
+
+
+@media only screen and (max-width: 992px){
+.projects .col-xs-8 {
+    width: 33.3%;
+  }
+}
+
+@media only screen and (max-width: 724px){
+  .jumbotron-bike h1 {
+    font-size: 5.7rem;
+  }
+
+  .jumbotron-bike p, .jumbotron.trouble p {
+    width: 100%;
+  }
+
+  .projects .col-xs-8 {
+      width: 100%;
+    }
+}
